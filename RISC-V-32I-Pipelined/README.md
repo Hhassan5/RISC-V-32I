@@ -53,31 +53,31 @@ A complete implementation of a 32-bit RISC-V processor with 5-stage pipeline arc
 You can easily trace the results in the following 3 examples
 (note that wd is the data being written in the registers and wr is the register number)
 ### Test 1
--lw x1,256(x0) 
--lw x2,260(x0) 
--lw x3,264(x0) 
--addi x4,x2,5 
--lui x5,5 
--auipc x6,2 
--jal x7,20 
+- lw x1,256(x0) 
+- lw x2,260(x0) 
+- lw x3,264(x0) 
+- addi x4,x2,5 
+- lui x5,5 
+- auipc x6,2 
+- jal x7,20 
 
 ![image](https://github.com/user-attachments/assets/ec7696e2-a970-474c-81a8-13e47ca35f65)
 
 ### Test 2
--sub x24,x3,x2 
--sll x25,x2,x4 
--slt x26,x2,x3 
--sltu x27,x2,x3 
--xor x28,x1,x3 
--srl x29,x3,x2 
--sra x30,x3,x2 
--or x31,x1,x2 
--and x5,x1,x2 
--fence 
--fence.tso 
--pause 
--ecall 
--Ebreak 
+- sub x24,x3,x2 
+- sll x25,x2,x4 
+- slt x26,x2,x3 
+- sltu x27,x2,x3 
+- xor x28,x1,x3 
+- srl x29,x3,x2 
+- sra x30,x3,x2 
+- or x31,x1,x2 
+- and x5,x1,x2 
+- fence 
+- fence.tso 
+- pause 
+- ecall 
+- Ebreak 
 
 ![image](https://github.com/user-attachments/assets/ea76d277-081c-44c0-9b68-676cfeca76d3)
 
