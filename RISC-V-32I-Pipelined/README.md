@@ -51,17 +51,17 @@ System instructions (ECALL, EBREAK, FENCE)
 
 ## Design Decisions and Trade-offs
 ### Word-Addressable Memory
-*Rationale: Simplified debugging and test case development
-*Trade-off: Non-standard addressing scheme vs. development efficiency
-*Future Work: Can be easily modified to byte-addressable implementation
+* Rationale: Simplified debugging and test case development
+* Trade-off: Non-standard addressing scheme vs. development efficiency
+* Future Work: Can be easily modified to byte-addressable implementation
 ### Unified Memory Architecture
-*Advantage: Simplified memory controller and reduced resource usage
-*Implementation: Dual-clock operation prevents instruction/data conflicts
-*Scalability: Design supports easy expansion to Harvard architecture
+* Advantage: Simplified memory controller and reduced resource usage
+* Implementation: Dual-clock operation prevents instruction/data conflicts
+* Scalability: Design supports easy expansion to Harvard architecture
 ### Static Branch Prediction
-*Current: Simple flush-on-branch strategy
-*Performance: Minimal impact due to short pipeline depth
-*Enhancement Opportunity: Dynamic prediction could improve performance
+* Current: Simple flush-on-branch strategy
+* Performance: Minimal impact due to short pipeline depth
+* Enhancement Opportunity: Dynamic prediction could improve performance
 
 
 
