@@ -50,7 +50,7 @@ A complete implementation of a 32-bit RISC-V processor with 5-stage pipeline arc
 * Enhancement Opportunity: Dynamic prediction could improve performance
 
 ## Example Test Results
-You can easily trace the results in the following 3 examples
+You can easily trace the results in the following 3 examples <br>
 (note that wd is the data being written in the registers and wr is the register number)
 ### Test 1
 - lw x1,256(x0) 
