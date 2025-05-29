@@ -44,7 +44,7 @@ System instructions (ECALL, EBREAK, FENCE)
 
 ## Installation and Usage
 ### Prerequisites:
-*Xilinx Vivado (2018 or later)
+"*"Xilinx Vivado (2018 or later)
 *Nexys A7 FPGA development board
 *ModelSim/QuestaSim or compatible Verilog simulator (for simulation)
 
