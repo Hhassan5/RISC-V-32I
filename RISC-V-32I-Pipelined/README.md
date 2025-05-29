@@ -29,6 +29,10 @@ A complete implementation of a 32-bit RISC-V processor with 5-stage pipeline arc
 
 
 ## Installation and Usage
+###
+- Download all the files
+- Make RISCV_pipeline.v the top module
+- Use the RISCtb.v as the testbench
 ### Prerequisites:
 - Xilinx Vivado (2018 or later)
 - Nexys A7 FPGA development board
