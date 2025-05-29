@@ -1,19 +1,13 @@
 # RISC-V 5-Stage Pipelined Processor
 A complete implementation of a 32-bit RISC-V processor with 5-stage pipeline architecture, featuring advanced hazard detection, data forwarding, and unified memory design. This project demonstrates comprehensive understanding of computer architecture principles and modern processor design techniques.
 ## RISC-V Instruction Support
-R-Type Instructions: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
-
-I-Type Instructions: ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI, LB, LH, LW, LBU, LHU, JALR
-
-S-Type Instructions: SB, SH, SW
-
-B-Type Instructions: BEQ, BNE, BLT, BGE, BLTU, BGEU
-
-U-Type Instructions: LUI, AUIPC
-
-J-Type Instructions: JAL
-
-System Instructions: ECALL, EBREAK, FENCE, FENCE.TSO, PAUSE (implemented as halt operations)
+- R-Type Instructions: ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
+- I-Type Instructions: ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI, LB, LH, LW, LBU, LHU, JALR
+- S-Type Instructions: SB, SH, SW
+- B-Type Instructions: BEQ, BNE, BLT, BGE, BLTU, BGEU
+- U-Type Instructions: LUI, AUIPC
+- J-Type Instructions: JAL
+- System Instructions: ECALL, EBREAK, FENCE, FENCE.TSO, PAUSE (implemented as halt operations)
 
 ## Data Path Diagram
 ![PC](https://github.com/user-attachments/assets/b3c5ec00-98ef-44cf-a204-01d6fecb708f)
